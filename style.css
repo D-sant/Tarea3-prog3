@@ -1,0 +1,79 @@
+*,::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html{
+    font-family: 'Poppins','sans-serif';
+    font-size: 70.5%;
+}
+body{
+    background-color: rgb(76, 76, 76);
+    color: white;
+}
+.container{
+    height: 100vh;
+    width: 70vw;
+    margin: 2rem auto;
+    font-weight: bold;
+}
+.container h2{
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 2.3rem;
+}
+.formulario-datos{
+    display: block;
+    width: 50%;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+}
+.formulario-datos input{
+    margin: 1rem 0rem;
+    line-height: 3rem;
+    background: none;
+    outline: 0;
+    border: 0;
+    color: white;
+}
+.formulario-datos input:active{
+    border-bottom: 1px solid dodgerblue;
+}
+.formulario-datos input:focus{
+    border-bottom: 1px solid dodgerblue;
+}
+.formulario-datos button{
+    margin: 1rem 0rem;
+    background-color: dodgerblue;
+    border: 0;
+    outline: 0;
+    height: 3rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+}
+button:hover{
+    background-color: rgb(8, 113, 217);
+}
+.listado-tareas{
+    display: flex;
+    flex-direction: column;
+}
+.tareas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 4rem;
+}
+.icono{
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+}
+.icono:hover{
+    color: rgb(119, 0, 0);
+}
